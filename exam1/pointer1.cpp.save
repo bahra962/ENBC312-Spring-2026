@@ -1,0 +1,34 @@
+int x = 5;
+int* p = &x;
+
+
+int y = 7;
+int* p2=&y;
+
+y = 7
+p2 = address of y
+&y = address of y
+&p = address =of p
+*p = value of address stored at p
+
+
+
+&_ = address of _
+*_ = value at address p
+
+
+void changeValue(int* x)
+{
+    *x = 20;
+}
+
+int a = 5;
+changeValue(&a);
+
+int main(){
+	int score;
+
+	cout >> "enter a score";
+
+	cin >> score; 
+}
